@@ -1,0 +1,38 @@
+[$RootKey$\Menus]
+"{B20604B0-72BC-4953-BB92-95BF26D30CFA}"=",102,1"
+
+[$RootKey$\Packages\{B20604B0-72BC-4953-BB92-95BF26D30CFA}]
+@="Code Analysis Package"
+"Class"="Microsoft.VisualStudio.CodeAnalysis.CodeAnalysisPackage"
+"CodeBase"="$ShellFolder$\Common7\IDE\PrivateAssemblies\StanCore.dll"
+"CompanyName"="Microsoft Corporation"
+"InprocServer32"="$System$\mscoree.dll"
+"MinEdition"="Standard"
+"ProductName"="Microsoft Visual Studio Team System Code Analysis Package"
+"ProductVersion"="15.0"
+
+[$RootKey$\Packages\{B20604B0-72BC-4953-BB92-95BF26D30CFA}\SatelliteDll]
+"DllName"="StanPackageUI.dll"
+"Path"="$ShellFolder$\Common7\IDE\PrivateAssemblies\"
+
+[$RootKey$\Services\{1cd00aab-8d48-4d5a-92f9-70b4ecf12c0f}]
+@="{B20604B0-72BC-4953-BB92-95BF26D30CFA}"
+"Name"="SCodeAnalysisProjectService"
+
+[$RootKey$\Services\{AEBE2A87-9063-4B11-95C0-14E48CEC4439}]
+@="{B20604B0-72BC-4953-BB92-95BF26D30CFA}"
+"Name"="SFxCopLoggerService"
+
+[$RootKey$\Services\{B4C70F40-77FB-47B7-822A-1136984ED5C8}]
+@="{B20604B0-72BC-4953-BB92-95BF26D30CFA}"
+"Name"="SCodeAnalysisDiagnosticsService"
+
+[$RootKey$\Services\{dfb40067-f0c3-425f-9936-951a7900a0ac}]
+@="{B20604B0-72BC-4953-BB92-95BF26D30CFA}"
+"Name"="SStaticAnalysisService"
+
+[$RootKey$\ToolWindows\{5E2A3C77-05AC-4964-A4FB-ECCB7EA295C5}]
+@="{B20604B0-72BC-4953-BB92-95BF26D30CFA}"
+"Name"="Microsoft.VisualStudio.CodeAnalysis.DiagnosticsToolWindow"
+"Style"="Tabbed"
+"Window"="{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
